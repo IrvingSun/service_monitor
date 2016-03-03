@@ -10,8 +10,8 @@ import smtplib
 
 def send_email(messge='test', sub='监控', toList=['huji@le.com']):
     smtp_server = 'smtp.163.com'
-    mail_user = 'lszxit_monitor@163.com'
-    password = 'lszxit'
+    mail_user = 'lszxitmonitor@163.com'
+    password = 'xxxx'
 
     # 创建一个实例，这里设置为html格式邮件
     msg = MIMEText(messge, _subtype='html', _charset='utf-8')
