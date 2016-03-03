@@ -105,11 +105,11 @@ class MysqlUtil(DbBase):
 
 if __name__ == '__main__':
     dbInfo = {
-        "host": "10.154.250.19",
-        "port": 3306,
-        "dbname": "zx_freight",
-        "user": "wangjiu",
-        "password": "wangjiu"
+        "host": "",
+        "port": ,
+        "dbname": "",
+        "user": "",
+        "password": ""
     }
     mysqlUtil = MysqlUtil(dbInfo)
     sql1 = "select * from address_freight limit 1"
